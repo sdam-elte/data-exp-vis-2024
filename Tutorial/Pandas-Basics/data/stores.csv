@@ -1,0 +1,5 @@
+store_id,store_type,store_square_feet,store_address,store_city,store_state_province,store_postal_code,store_longitude,store_latitude,manager,neigborhood
+2,warehouse,3400,164-14 Jamaica Ave,Jamaica,NY,14232,-73.795168,40.705226,,Jamaica
+3,retail,2300,32-10 Sordway,Short Island City,NY,11506,-73.924008,40.761196,6,Astoria
+5,retail,900,99 Lamb Street,New York,NY,11007,-74.01013,40.71329,16,Lower Manhattan
+8,retail,1600,947 16th Avenue,New York,NY,20036,-73.990338,40.761887,31,Hell's Kitchen

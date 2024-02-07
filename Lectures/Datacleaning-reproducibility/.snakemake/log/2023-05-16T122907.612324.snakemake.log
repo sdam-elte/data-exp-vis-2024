@@ -1,0 +1,17 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1
+
+[Tue May 16 12:29:07 2023]
+localrule all:
+    jobid: 0
+
+[Tue May 16 12:29:07 2023]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /v/wfct0p/data-exp-vis-2023/Lectures/L-Datacleaning-reproducibility/.snakemake/log/2023-05-16T122907.612324.snakemake.log

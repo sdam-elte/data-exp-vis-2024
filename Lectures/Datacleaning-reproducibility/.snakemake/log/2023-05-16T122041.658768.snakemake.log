@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	simple_cat
+	1
+
+[Tue May 16 12:20:41 2023]
+rule simple_cat:
+    input: data/atext, data/btext
+    output: snakemake.output/nocommentstext
+    jobid: 0
+
+[Tue May 16 12:20:42 2023]
+Error in rule simple_cat:
+    jobid: 0
+    output: snakemake.output/nocommentstext
+    shell:
+        cat data/atext data/btext | grep -v '#' > /v/wfct0p/snakemake.output/nocommentstext
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /v/wfct0p/data-exp-vis-2023/Lectures/L-Datacleaning-reproducibility/.snakemake/log/2023-05-16T122041.658768.snakemake.log

@@ -1,0 +1,17 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	simple_cat
+	1
+
+[Tue May 16 12:20:24 2023]
+rule simple_cat:
+    input: data/atext, data/btext
+    output: snakemake.output/nocommentstext
+    jobid: 0
+
+RuleException in line 1 of /v/wfct0p/data-exp-vis-2023/Lectures/L-Datacleaning-reproducibility/example.Snakefile:
+NameError: The name 'home' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}
