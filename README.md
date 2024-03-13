@@ -26,16 +26,15 @@ Each occasion starts with approximately a twenty minute of introduction into the
                 **[Timeseries analysis](Lectures/Timeseries/02-Timeseries.pdf)** and **[USGS water discharge statistics](Assignments/Timeseries)**<br>
 2,  20.02.2024. **[Maps, shapes, coordinates](Lectures/Shapes-Maps-Coordinates)** <br>
 3,  27.02.2024. **[Review the basics, Python, Pandas, etc.](Basics_Python_pandas)** <br>
-4,  05.03.2024. **[Image exploration](Lectures/Image_Exploration)**  <br>
-5,  12.03.2024. **[SQL queries](Lectures/SQL)** <br>
-6,  19.03.2024. **[Interactive Visualization](Lectures/Interactive_Visualization)** <br>
-7,  26.03.2024. **[Natural Language Processing](Lectures/NLP)** <br>
-8,  09.03.2024. **[Datacleaning, and Filtering, Reproducibility](Lectures/Datacleaning-reproducibility)** <br>
-9,  16.04.2024. **[REST services](Lectures/HTTP-REST-API)** <br>
-10, 23.04.2024. **[Network exploration](Lectures/Networks)** <br>
-11, 30.04.2024. **[Working with large datasets](Lectures/LargeData)**<br>
-12, 07.05.2024. **[NoSQL - Elasticsearch and Kibana, GraphQL](Lectures/NoSQL-ES)** <br>
-13, 14.05.2024. ** Away for conference, no lecture** <br>
+4,  12.03.2024. **[Image exploration](Lectures/Image_Exploration)**  <br>
+5,  19.03.2024. **[Network exploration](Lectures/Networks)** <br>
+6,  26.03.2024. **[SQL queries](Lectures/SQL)** <br>
+7,  09.03.2024. **[Natural Language Processing](Lectures/NLP)** <br>
+8,  16.03.2024. **[Datacleaning, and Filtering, Reproducibility](Lectures/Datacleaning-reproducibility)** <br>
+9,  23.04.2024. **[REST services](Lectures/HTTP-REST-API)** <br>
+10, 30.04.2024. **[Interactive Visualization](Lectures/Interactive_Visualization)** <br>
+11, 07.04.2024. **[Working with large datasets](Lectures/LargeData)**<br>
+12, 14.05.2024. ** Away for conference, no lecture** <br>
 
 <!-- **[NoSQL - Elasticsearch and Kibana, GraphQL](Lectures/L-NoSQL-ES)** -->
 
