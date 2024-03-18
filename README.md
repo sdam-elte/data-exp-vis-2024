@@ -29,8 +29,8 @@ Each occasion starts with approximately a twenty minute of introduction into the
 4,  12.03.2024. **[Image exploration](Lectures/Image_Exploration)**  <br>
 5,  19.03.2024. **[Network exploration](Lectures/Networks)** <br>
 6,  26.03.2024. **[SQL queries](Lectures/SQL)** <br>
-7,  09.03.2024. **[Natural Language Processing](Lectures/NLP)** <br>
-8,  16.03.2024. **[Datacleaning, and Filtering, Reproducibility](Lectures/Datacleaning-reproducibility)** <br>
+7,  09.04.2024. **[Natural Language Processing](Lectures/NLP)** <br>
+8,  16.04.2024. **[Datacleaning, and Filtering, Reproducibility](Lectures/Datacleaning-reproducibility)** <br>
 9,  23.04.2024. **[REST services](Lectures/HTTP-REST-API)** <br>
 10, 30.04.2024. **[Interactive Visualization](Lectures/Interactive_Visualization)** <br>
 11, 07.04.2024. **[Working with large datasets](Lectures/LargeData)**<br>
