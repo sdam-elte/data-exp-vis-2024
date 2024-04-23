@@ -1,1 +1,4 @@
 poetry run python -m streamlit run streamlit_example.py --server.baseUrlPath=$REPORT_URL --server.port=9000 --server.address=0.0.0.0 --server.runOnSave=True --server.allowRunOnSave=True
+
+Then visit the $REPORT_URL endpoint on the server
+echo $REPORT_URL
