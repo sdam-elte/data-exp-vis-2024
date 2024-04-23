@@ -1,0 +1,86 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js" integrity="sha384-XypntL49z55iwGVUW4qsEu83zKL3XEcz0MjuGOQ9SlaaQ68X/g+k1FcioZi7oQAc" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.2.min.js" integrity="sha384-TX0gSQTdXTTeScqxj6PVQxTiRW8DOoGVwinyi1D3kxv7wuxQ02XkOxv0xwiypcAH" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="46316a93-a1b5-4bd9-8e0b-7f13320aea0f" data-root-id="2557"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2746">
+          {"e518002b-6ceb-4a06-a859-69157f3fcdd3":{"defs":[],"roots":{"references":[{"attributes":{"children":[{"id":"2555"},{"id":"2556"}]},"id":"2557","type":"Column"},{"attributes":{"format":"$0,0"},"id":"2353","type":"NumeralTickFormatter"},{"attributes":{},"id":"2348","type":"UnionRenderers"},{"attributes":{},"id":"2307","type":"DataRange1d"},{"attributes":{"below":[{"id":"2313"}],"center":[{"id":"2316"},{"id":"2320"},{"id":"2350"}],"height":400,"left":[{"id":"2317"}],"renderers":[{"id":"2338"}],"title":{"id":"2303"},"toolbar":{"id":"2328"},"width":400,"x_range":{"id":"2305"},"x_scale":{"id":"2309"},"y_range":{"id":"2307"},"y_scale":{"id":"2311"}},"id":"2302","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"2305","type":"DataRange1d"},{"attributes":{},"id":"2321","type":"PanTool"},{"attributes":{},"id":"2324","type":"SaveTool"},{"attributes":{"axis":{"id":"2317"},"dimension":1,"ticker":null},"id":"2320","type":"Grid"},{"attributes":{},"id":"2322","type":"WheelZoomTool"},{"attributes":{"text":"Expenses of the buildings"},"id":"2303","type":"Title"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"field":"colors"},"line_alpha":{"value":0.5},"line_color":{"field":"colors"},"size":{"field":"electricity"},"x":{"field":"water"},"y":{"field":"gas"}},"id":"2336","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"colors"},"line_alpha":{"value":0.1},"line_color":{"field":"colors"},"size":{"field":"electricity"},"x":{"field":"water"},"y":{"field":"gas"}},"id":"2337","type":"Circle"},{"attributes":{},"id":"2309","type":"LinearScale"},{"attributes":{},"id":"2311","type":"LinearScale"},{"attributes":{"data":{"colors":["red","red","red","red","red","red","red","red","red","red","red","red","red","green","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","green","red","red","red","red","red","red","red","red","red","red","green","red","red","red","red","red","red","red","red","red","green","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","green","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","green","red","red","red","red","red","red","red","red","red","red","green","green","red","red","green","red","red","green","green","green","red","red","red","red","red","red","red","red","red","red","red","red","red","red","green","red","red","red","red","red"],"electricity":{"__ndarray__":"AtpIDJu2D0BOMkuOhAXCPxqtK2pl/gpAyaezxynZ5D+YdhmnvhDtP+g0d1gUWPU/cvJHSKjSLkB0XO4RAqP2PzH03WVgfB5AHgCR7hy8JEAKTi/N0ZACQBqtK2pl/gpAk+KVqgiLA0BGn5RvyEwkQE+WhP71gy5AicNbiHpU+j/EQDgZwV/zP7TUsiphCRxAsoLeBacIL0BZjXSNI7sOQDYHCXMZ4+w/JnRZcFUOLkBznJlpATbzP8LMhrqOsew/HdoVebSC4T9hmoXi9oMXQKA70kyx8ihAdtab6Rtn5T+XmuM9LQwEQParY9lFHQZAAAAAAAAA+H/ijW6RqtMUQAAAAAAAAPh/w1BdZn/bF0D7KMTPVxj1P4ha1T0dBQ5AIksr3PSdGkBNKe+Xp2wHQO5amBCC+QVAGBbuMr9d8j+KQIcciCMNQAAAAAAAAPh/IOBGVKDE9T8ru8YCPqALQAAAAAAAAPh/F+lWxXKNJUCo6CkuBUHxP30MNZBKOBRA3yBoSluABkBPldVf+j4wQKUbanM2c/w/AAAAAAAA+H8euwmdMpTVP86F7bC3z/k/MX2QCzw78j9+3AEnDNX1P/A+e9H0UfU/hAZQOmnGDkDqEB6ippjlP/DSdsqj9xRALYTogRziEECKj4rjS2XsP2QHjClG1wVAIbaeg0g7FEDqXVJLchT1PxU4B+szG+s/RuWsILAx+j9S/G5NYUD5P3d1M9egpypAXvKR/pSq9z/16B+UUGkHQHd1M9egpypAAAAAAAAA+H8c0tkB1GryP/YbBhyHA/Y/hwkDWWH97j/3ayliR8bwP6nDPxiaxO4/AAAAAAAA+H/LjEUnmHYIQIkZe0ciLe0/Nlx5k8V2IUDPDfG3l0kjQCHb+Xm08/E/0WSDlz5X9T8AAAAAAAD4f1zCKTNSG+0/0PRvdPw07j/8K7NsTF8AQMgH/FqoFyRA4o1ukarTFEAjFNx60qMIQBD7Fc4ko90/i+DNqAipAkAYL1E3XOrjP3p019mnFvA/Jui3LYUIMUCsPg1vsAkZQOdoSP1CR+M/rD4Nb7AJGUDw2OMjjEkkQB4Ake4cvCRAAAAAAAAA+H8+9AusbMTrP+Pwh4If0SFAghP3yjM3L0CzztTwd3vxP6C8KjyuEeo/kAZ+gHUO7D/zJ6tsU3voPzAZyHvL+DBAQ1Htpf2b9T/KHyGhSpv8P1qYn6H4Gek/t9uSpEiQ8D8QhFeT/yX6P5yrzkztcPs/vhcoxF535z9VLNcYpM8DQAAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fzAcRji/A/U/NMi5GBPh9j8y8n8oafIFQN5SatGRqQRAB2pMDF84A0B9a7BFz6kRQEw8A4JaLxdA1xGI14/xI0DKuNpU5k0HQHqWtBMgxB1AbCzgA7qrJEAAAAAAAAA0QIAKKvRVYvk/g1G1xTx8zj8AAAAAAAA0QCG2noNIOxRALlkC88lP9j9C290J1GP2P8YUMgtyTA1A","dtype":"float64","order":"little","shape":[141]},"gas":{"__ndarray__":"AAAAAIAsykAAAAAAgHLDQAAAAABAT+xAAAAAAIDExkAAAAAAQIPQQAAAAADA1NNAAAAAAIBy/kAAAAAAAJW0QAAAAABQI/BAAAAAAGBH70AAAAAAgJPaQAAAAABAT+xAAAAAAEDJ4UAAAAAAsHn7QAAAAAAYJQZBAAAAAECQ3kAAAAAAAOTKQAAAAABwVfFAAAAAAIC99EAAAAAAAAAAAAAAAAAA48RAAAAAAJiBBEEAAAAAgAXJQAAAAAAAz8RAAAAAAADRyEAAAAAAoOHsQAAAAAC4HgJBAAAAAIDSz0AAAAAAgE/PQAAAAACAO+RAAAAAAAAA+H8AAAAAIKX6QAAAAAAAAPh/AAAAAEDc7UAAAAAAAKLGQAAAAACAHc9AAAAAAKDV/UAAAAAAIHrtQAAAAADgdeNAAAAAAMAH1EAAAAAAAAAAAAAAAAAAAPh/AAAAAEBP3UAAAAAAwMPRQAAAAAAAAPh/AAAAALgWCEEAAAAAAO/PQAAAAAAgzvpAAAAAAADS4kAAAAAAwIjpQAAAAAAAfNhAAAAAAAAA+H8AAAAAgC/AQAAAAABAyd5AAAAAAIAlwUAAAAAAAGrPQAAAAAAA78ZAAAAAAMDR0UAAAAAAACvLQAAAAABA9fFAAAAAAMAU1UAAAAAAQHvfQAAAAACAyO1AAAAAAJDYEEEAAAAAgGLjQAAAAAAAy8pAAAAAAEDo4UAAAAAAwA3WQAAAAADAgg9BAAAAAEBe2UAAAAAAgB7tQAAAAADAgg9BAAAAAAAA+H8AAAAAgF7LQAAAAAAA5N9AAAAAAICixEAAAAAAAODHQAAAAAAAM8NAAAAAAAAA+H8AAAAAIBbrQAAAAADAwNBAAAAAAJAQAEEAAAAAqCgCQQAAAAAAp9lAAAAAAACru0AAAAAAAAD4fwAAAAAAVsdAAAAAAIDlzkAAAAAAgN3IQAAAAACAhPpAAAAAACCl+kAAAAAAAD/XQAAAAAAAEbxAAAAAAAAT5EAAAAAAAK7GQAAAAACAJNBAAAAAAOCc8kAAAAAAoF33QAAAAACAlcJAAAAAAKBd90AAAAAAIOv8QAAAAABgR+9AAAAAAAAA+H8AAAAAAJTAQAAAAAAAzPRAAAAAADDX8EAAAAAAAKbKQAAAAACAP81AAAAAAIBl2EAAAAAAAE3AQAAAAAAAfPRAAAAAAABkr0AAAAAAAEbiQAAAAACAZdtAAAAAAADLukAAAAAAAMrQQAAAAACg0eRAAAAAAIC3x0AAAAAAgJPDQAAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAABADNtAAAAAAECH0kAAAAAAwMnmQAAAAAAgiuNAAAAAAAAU40AAAAAA4BHtQAAAAADwJPBAAAAAAOACB0EAAAAAIEfjQAAAAADQKPZAAAAAAJC/BEEAAAAAgJQPQQAAAABANtRAAAAAAAAAAAAAAAAAgJQPQQAAAACQ2BBBAAAAAACt0UAAAAAAAAfTQAAAAACg0etA","dtype":"float64","order":"little","shape":[141]},"label":["Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","With PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","With PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","With PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","With PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","With PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","With PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","With PV","With PV","Without PV","Without PV","With PV","Without PV","Without PV","With PV","With PV","With PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","Without PV","With PV","Without PV","Without PV","Without PV","Without PV","Without PV"],"water":{"__ndarray__":"AAAAAAAAAAAAAAAAAFSaQAAAAADARtRAAAAAAABrtEAAAAAAAI60QAAAAACAfcRAAAAAAIAk20AAAAAAAJioQAAAAACAAsRAAAAAAMAM0EAAAAAAACCoQAAAAADARtRAAAAAAAD+tEAAAAAAYLzmQAAAAABgseJAAAAAAAA6uEAAAAAAABmzQAAAAABAxNxAAAAAAABNyUAAAAAAAAixQAAAAAAAFbNAAAAAAMDP2UAAAAAAADm3QAAAAAAAnKNAAAAAAAAapEAAAAAAgOPFQAAAAAAAuN9AAAAAAADStUAAAAAAAH23QAAAAACAjcVAAAAAAAAA+H8AAAAAAPLSQAAAAAAAAPh/AAAAAAAHuUAAAAAAgFTAQAAAAAAAlLxAAAAAAMA30kAAAAAAAJLPQAAAAACAGMVAAAAAAAB6vEAAAAAAAF6kQAAAAAAAAPh/AAAAAIDPwEAAAAAAAJO9QAAAAAAAAPh/AAAAAIB53UAAAAAAAOiqQAAAAAAAJd1AAAAAAAAouEAAAAAAAFbJQAAAAAAAAbRAAAAAAAAA+H8AAAAAALSVQAAAAAAARsxAAAAAAADms0AAAAAAACPAQAAAAAAAEKtAAAAAAIA3wEAAAAAAADSqQAAAAAAAK8lAAAAAAADDvUAAAAAAAPKxQAAAAAAAd7ZAAAAAAKBi4kAAAAAAgCTDQAAAAAAACLRAAAAAAIAmykAAAAAAAB3JQAAAAAAAId1AAAAAAAA+sUAAAAAAAN24QAAAAAAAId1AAAAAAAAA+H8AAAAAABi8QAAAAAAArspAAAAAAAAkrkAAAAAAAP2wQAAAAAAA3LBAAAAAAAAA+H8AAAAAgB7CQAAAAAAAKq5AAAAAACAK5EAAAAAAwOzlQAAAAAAAorZAAAAAAACknEAAAAAAAAD4fwAAAAAAnqRAAAAAAAAZtUAAAAAAADXJQAAAAAAAB9dAAAAAAADy0kAAAAAAgDHCQAAAAAAAtJRAAAAAAIDqwEAAAAAAABycQAAAAACAlMZAAAAAAIAp4kAAAAAAAJHNQAAAAAAAyLBAAAAAAACRzUAAAAAAgI/dQAAAAADADNBAAAAAAAAA+H8AAAAAAL62QAAAAAAAqMxAAAAAAABH3EAAAAAAADrTQAAAAAAA4KlAAAAAAADeqUAAAAAAADSrQAAAAAAgQfBAAAAAAACSqkAAAAAAADKpQAAAAAAAqIJAAAAAAACSpEAAAAAAAFipQAAAAAAA1bhAAAAAAAASqEAAAAAAAEqrQAAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAACAdMBAAAAAAADpw0AAAAAAwC7SQAAAAAAA5sNAAAAAAABUwkAAAAAAAFTJQAAAAADA9dlAAAAAAMAT1UAAAAAAgHzAQAAAAAAA6s9AAAAAAIAx2EAAAAAA4KrhQAAAAAAA4s9AAAAAAACMlEAAAAAA4KrhQAAAAACgYuJAAAAAAAAStUAAAAAAACG9QAAAAACAYMZA","dtype":"float64","order":"little","shape":[141]}},"selected":{"id":"2347"},"selection_policy":{"id":"2348"}},"id":"2301","type":"ColumnDataSource"},{"attributes":{"axis_label":"Water Bill","formatter":{"id":"2353"},"major_label_policy":{"id":"2343"},"ticker":{"id":"2314"}},"id":"2313","type":"LinearAxis"},{"attributes":{"active_multi":null,"tools":[{"id":"2321"},{"id":"2322"},{"id":"2323"},{"id":"2324"},{"id":"2325"},{"id":"2326"}]},"id":"2328","type":"Toolbar"},{"attributes":{"text":"Description of the plot: Not many buildings have Photovoltaic panels..."},"id":"2554","type":"Div"},{"attributes":{"overlay":{"id":"2327"}},"id":"2323","type":"BoxZoomTool"},{"attributes":{},"id":"2326","type":"HelpTool"},{"attributes":{"items":[{"id":"2351"},{"id":"2352"}]},"id":"2350","type":"Legend"},{"attributes":{},"id":"2325","type":"ResetTool"},{"attributes":{"format":"$0,0"},"id":"2355","type":"NumeralTickFormatter"},{"attributes":{"axis":{"id":"2313"},"ticker":null},"id":"2316","type":"Grid"},{"attributes":{"children":[{"id":"2302"},{"id":"2554"}]},"id":"2556","type":"Row"},{"attributes":{"source":{"id":"2301"}},"id":"2339","type":"CDSView"},{"attributes":{"data_source":{"id":"2301"},"glyph":{"id":"2336"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2337"},"view":{"id":"2339"}},"id":"2338","type":"GlyphRenderer"},{"attributes":{},"id":"2346","type":"AllLabels"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"2327","type":"BoxAnnotation"},{"attributes":{"index":13,"label":{"value":"With PV"},"renderers":[{"id":"2338"}]},"id":"2351","type":"LegendItem"},{"attributes":{},"id":"2314","type":"BasicTicker"},{"attributes":{},"id":"2318","type":"BasicTicker"},{"attributes":{"axis_label":"Gas Bill","formatter":{"id":"2355"},"major_label_policy":{"id":"2346"},"ticker":{"id":"2318"}},"id":"2317","type":"LinearAxis"},{"attributes":{},"id":"2343","type":"AllLabels"},{"attributes":{"index":0,"label":{"value":"Without PV"},"renderers":[{"id":"2338"}]},"id":"2352","type":"LegendItem"},{"attributes":{"text":"&lt;h2&gt; Infographics of School Buildings&lt;/h2&gt;"},"id":"2555","type":"Div"},{"attributes":{},"id":"2347","type":"Selection"}],"root_ids":["2557"]},"title":"Bokeh Application","version":"2.3.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2746').textContent;
+                  var render_items = [{"docid":"e518002b-6ceb-4a06-a859-69157f3fcdd3","root_ids":["2557"],"roots":{"2557":"46316a93-a1b5-4bd9-8e0b-7f13320aea0f"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
