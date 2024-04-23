@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "streaml_app"
+version = "0.1.0"
+description = "Streamlit app"
+authors = ["jegesm <david.visontai@ttk.elte.hu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7"
+streamlit = "^1.33.0"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+matplotlib = "^3.8.4"
+opencv-python = "^4.9.0.80"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
