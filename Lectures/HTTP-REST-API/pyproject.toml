@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "http-rest-api"
+version = "0.1.0"
+description = ""
+authors = ["jegesm <david.visontai@ttk.elte.hu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter-kernel-gateway = "^3.0.1"
+fastapi = "^0.110.2"
+asyncio = "^3.4.3"
+uvicorn = "^0.29.0"
+pandas = "^2.2.2"
+bokeh = "^3.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
