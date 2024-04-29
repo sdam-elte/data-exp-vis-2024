@@ -31,8 +31,8 @@ Each occasion starts with approximately a twenty minute of introduction into the
 6,  26.03.2024. **[SQL queries](Lectures/SQL)** <br>
 7,  09.04.2024. **[Natural Language Processing](Lectures/NLP)** <br>
 8,  16.04.2024. **[Datacleaning, and Filtering, Reproducibility](Lectures/Datacleaning-reproducibility)** <br>
-9,  23.04.2024. **[REST services](Lectures/HTTP-REST-API)** <br>
-10, 30.04.2024. **[Interactive Visualization](Lectures/Interactive_Visualization)** <br>
+9,  23.04.2024. **[Interactive Visualization](Lectures/Interactive_Visualization)** <br>
+10, 30.04.2024. **[REST services](Lectures/HTTP-REST-API)** <br>
 11, 07.04.2024. **[Working with large datasets](Lectures/LargeData)**<br>
 12, 14.05.2024. ** Away for conference, no lecture** <br>
 
