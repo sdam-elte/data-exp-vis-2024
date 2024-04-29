@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Embedding Bokeh application via a REST API</title>
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <!--integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"-->
+    <!-- open iconic -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.2.min.js"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.4.2.min.js"></script>
+    
+
+
+
+<!--script src="https://kit.fontawesome.com/27d0a7c7d0.js"></script-->
+<!--link rel="stylesheet" href="/static/fontawesome-free-5.10.2-web/css/all.css">
+
+    <link rel="stylesheet" href="/static/fonts/open-iconic-master/font/css/open-iconic-bootstrap.css">
+<link rel="stylesheet" href="/static/css/bootstrap4-toggle.min.css"-->
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+  </head>
+
+
+  <body>
+      <div id="myplot"> </div>
+      <script>
+         fetch('https://k8plex-edu.elte.hu/notebook/report/wfct0p-dd/bps',
+		 {method: 'GET',
+  credentials: 'omit'
+})
+	 
+       //  fetch('https://wfct0p-dataexpviz-edu:9000/notebook/test/wfct0p-dataexpviz-edu/bps')
+         //fetch('https://localhost:9000/notebook/test/wfct0p-dataexpviz-edu/bps')
+           .then(function(response) { return response.json(); })
+           .then(function(item) { Bokeh.embed.embed_item(item); })
+      </script>
+  </body>
+</html>
